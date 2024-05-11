@@ -42,7 +42,7 @@ model = genai.GenerativeModel(model_name="gemini-1.5-pro-latest",
 # Função para interação com o chatbot
 
 def main():
-    st.title("Omnilingo - Chatbot poliglota com Gemini AI")
+    st.title("Omnilingo - Chatbot poliglota com Gemini AI :wink:")
     st.markdown("Este é um chatbot alimentado por GEMINI AI, Envie uma mensagem pra inciar a aula. :speech_balloon:")
 
     if "messages" not in st.session_state:
